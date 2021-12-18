@@ -1,0 +1,19 @@
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-link {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.nav-item,
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgb(17, 17, 17);
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
